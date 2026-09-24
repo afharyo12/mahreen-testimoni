@@ -1,0 +1,33 @@
+{
+  "name": "mahreen-statement",
+  "private": true,
+  "version": "0.0.0",
+  "type": "common",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "oxlint",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@svg-maps/indonesia": "^2.0.0",
+    "@tailwindcss/vite": "^4.3.3",
+    "flyonui": "^2.4.1",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-simple-maps": "^5.0.5",
+    "react-slick": "^0.31.0",
+    "tailwind": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "oxlint": "^1.81.0",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.3.0"
+  },
+  "allowScripts": {
+    "core-js@2.6.12": true
+  }
+}
